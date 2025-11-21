@@ -1,0 +1,17 @@
+targets:
+  $default:
+    builders:
+      injectable_generator:injectable_builder:
+        enabled: true
+        options:
+          auto_register: true
+      json_serializable:json_serializable:
+        enabled: true
+      freezed:freezed:
+        enabled: true
+      retrofit_generator:retrofit:
+        enabled: true
+      riverpod_generator:riverpod_generator:
+        enabled: true
+
+

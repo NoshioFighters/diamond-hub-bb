@@ -1,0 +1,90 @@
+name: diamond_hub_bb
+description: Diamond Hub BB - Flutter application with Firebase backend
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  firebase_analytics: ^10.7.4
+  firebase_crashlytics: ^3.4.9
+
+  # Dependency Injection
+  get_it: ^7.6.4
+  injectable: ^2.3.2
+
+  # Network
+  dio: ^5.4.0
+  retrofit: ^4.0.3
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Code Generation
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+
+  # Utilities
+  equatable: ^2.0.5
+  intl: ^0.18.1
+  logger: ^2.0.2+1
+  path_provider: ^2.1.1
+  package_info_plus: ^5.0.1
+  dartz: ^0.10.1
+
+  # UI
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Figma Integration
+  # Custom widgets will be generated from Figma designs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+  # Code Generation
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  freezed: ^2.4.6
+  retrofit_generator: ^8.0.6
+  injectable_generator: ^2.4.1
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - figma/designs/
+    - figma/components/
+
+  # Fonts
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/CustomFont-Regular.ttf
+
