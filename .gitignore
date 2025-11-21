@@ -24,6 +24,9 @@ migrate_working_dir/
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -42,11 +45,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/local.properties
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
 
 # Generated files
 *.g.dart
 *.freezed.dart
 *.config.dart
+**/GeneratedPluginRegistrant.*
+**/GeneratedPluginRegistrant.h
+**/GeneratedPluginRegistrant.m
 
 # Firebase
 **/google-services.json
